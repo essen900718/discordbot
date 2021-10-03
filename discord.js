@@ -290,6 +290,18 @@ client.on('message', async (msg) => {
         // 則 Bot 回應 'Pong'
         msg.reply('我是這世界上獨一無二的8凌公舉，如果還有另一個我，那個肯定是冒牌貨');
     }
+
+    if (msg.author.id === '717344263863533610') {
+        msg.reply('yaaaaa');
+    }
+
+    if (msg.author.id === '384363172783587328') {
+        msg.reply('閉嘴');
+    }
+
+    if (msg.author.id === '661979913749921815') {
+        msg.reply('東太平洋不要想要偷放歌');
+    }
 });
 
 // 連上線時的事件
